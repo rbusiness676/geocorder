@@ -1,4 +1,4 @@
-In this module , We are trying to fetch location details like langitude, latitude etc using "text based input adrres".
+In this module , We are trying to fetch location details like langitude, latitude etc using "text based input adrress".
 
 For example ,
 
@@ -22,10 +22,13 @@ We are exposing two apis for two different approaches to acheive the same functi
 2) http://127.0.0.1:8000/find/
 
 Above urls take, thress input parameters,
+========================================
 
 google_key [ mandatory] - refers google api key
 file_out   [Optional, auto created, return in response] - refers to response generated
 file_in    [Optional, defaulted to local file "test.xlsx"] - refers to input address data
 
 
-NOTE: FACING SOME ISSUES WITH GOOGLE API KEY, THIS CODE MAY REQUIRED SOME CHANGES.
+NOTE:
+=====
+    FACING SOME ISSUES WITH GOOGLE API KEY, THIS CODE MAY REQUIRED SOME CHANGES.
