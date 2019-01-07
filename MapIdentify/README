@@ -1,0 +1,31 @@
+In this module , We are trying to fetch location details like langitude, latitude etc using "text based input adrres".
+
+For example ,
+
+input :
+======
+address: "Bengaluru"
+
+Output:
+======
+address: "Bnegaluru"
+langitude: 13.7322386
+latitude:  34.3843839
+
+In order test this API, User must generate "Google API key" using below link:
+
+https://cloud.google.com/console/google/maps-apis/overview
+
+We are exposing two apis for two different approaches to acheive the same functionality.
+
+1) http://127.0.0.1:8000/location/
+2) http://127.0.0.1:8000/find/
+
+Above urls take, thress input parameters,
+
+google_key [ mandatory] - refers google api key
+file_out   [Optional, auto created, return in response] - refers to response generated
+file_in    [Optional, defaulted to local file "test.xlsx"] - refers to input address data
+
+
+NOTE: FACING SOME ISSUES WITH GOOGLE API KEY, THIS CODE MAY REQUIRED SOME CHANGES.
